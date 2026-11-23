@@ -22,7 +22,9 @@ O fluxo do projeto é dividido em uma etapa de pré-processamento clássico e um
 ### 2. Formulação do LS-SVM
 Com os dados condensados na matriz 2x2, calculamos os vetores médios das classes e formulamos o sistema linear regularizado do LS-SVM clássico, dado por:
 
-$$A = K + \gamma^{-1} I$$
+$$ 
+A = K + \gamma^{-1} I
+$$
 
 Onde $K$ é a matriz de Kernel e $\gamma^{-1} I$ é o fator de penalização/regularização. Esta matriz $A$, juntamente com o vetor de rótulos, forma o sistema que será enviado ao computador quântico.
 
